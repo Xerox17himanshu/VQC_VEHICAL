@@ -23,28 +23,7 @@ matplotlib
 seaborn
 pennylane
 pennylane-qiskit (optional, if using Qiskit as a backend for PennyLane)
-Installation
-Clone this repository:
 
-sh
-Copy code
-git clone https://github.com/yourusername/quantum-classical-ml.git
-cd quantum-classical-ml
-Install the required libraries:
-
-sh
-Copy code
-pip install pandas numpy scikit-learn matplotlib seaborn pennylane pennylane-qiskit
-Usage
-Place your labels_train.csv dataset in the same directory as the script.
-
-Run the script:
-
-sh
-Copy code
-python main.py
-Dataset
-The dataset (labels_train.csv) should have the following structure:
 
 frame	xmin	xmax	ymin	ymax	class_id
 1478019952686311006.jpg	237	251	143	155	1
